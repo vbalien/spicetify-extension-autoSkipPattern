@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Auto Skip Pattern",
+    "description": "Automatically skip songs using regular expression patterns.",
+    "preview": "assets/preview.png",
+    "main": "dist/autoSkipPattern.js",
+    "readme": "README.md",
+    "authors": [
+      {
+        "name": "vbalien",
+        "url": "https://github.com/vbalien"
+      }
+    ],
+    "tags": [
+      "autoskip",
+      "skip"
+    ]
+  }
+]

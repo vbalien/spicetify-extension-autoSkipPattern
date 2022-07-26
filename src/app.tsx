@@ -1,7 +1,7 @@
 import { SettingsSection } from 'spcr-settings';
 
 async function setupSettings(): Promise<SettingsSection> {
-  const settings = new SettingsSection('Auto skip pattern', 'settings-test');
+  const settings = new SettingsSection('Auto skip pattern', 'auto-skip-pattern');
   settings.addToggle('toggle-extension', 'Enable', true);
   settings.addInput('pattern-title', 'Title pattern(regular expression)', '');
   settings.addInput('pattern-artist', 'Artist pattern(regular expression)', '');

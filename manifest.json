@@ -1,7 +1,7 @@
 [
   {
     "name": "Auto Skip Pattern",
-    "description": "Automatically skip songs using regular expression patterns.",
+    "description": "Use regular expression patterns to automatically skip songs.",
     "preview": "assets/screenshot.png",
     "main": "dist/autoSkipPattern.js",
     "readme": "README.md",

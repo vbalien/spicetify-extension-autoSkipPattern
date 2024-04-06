@@ -12,12 +12,6 @@ async function setupSettings(): Promise<SettingsSection> {
 
   settings.addInput('pattern-artist', 'Artist pattern(regular expression)', '');
 
-  settings.addToggle(
-    'next-and-back',
-    'Enable this option If Double-Skipping Occurs',
-    false
-  );
-
   await settings.pushSettings();
 
   return settings;
@@ -72,10 +66,6 @@ async function main() {
       (artistPattern && artistPattern.test(artist))
     ) {
       Spicetify.Player.next();
-
-      if (settings.getFieldValue('next-and-back')) {
-        Spicetify.Player.back();
-      }
     }
   });
 }
